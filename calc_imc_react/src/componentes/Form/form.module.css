@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+
+.allBox{
+    background-color: rgba(41, 121, 196, 0.2);
+    width: 100vw;
+    height: 100vh;
+}
+
+.contentBox{
+    padding-top: 32px;
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1{
+    font-size: 32px;
+    margin-bottom: 32px;
+    color: white;
+    text-shadow: black 0px 2px 4px;
+}
+
+h2{
+    font-size: 24px;
+    color: white;
+    margin-bottom: 16px;
+    text-shadow: black 0px 1px 4px;
+}
+
+.formBox{
+    margin: 0 auto;
+    max-width: 360px;
+    background-color: rgb(42, 122, 197);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 32px 32px;
+    box-shadow: black 0px 2px 4px;
+    margin-bottom: 32px;
+}
+
+input{
+    margin-bottom: 16px;
+    border-radius: 4px;
+    border: none;
+    padding: 2px 4px;
+}
+
+p{
+    font-size: 16px;
+    color: white;
+}
+
+.IMCbox{
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+}
+
+h3{
+    color: black;
+    text-shadow: white 0px 1px 4px;
+    margin-bottom: 8px;
+}
+
+.texto{
+    text-shadow: white 0px 0px 4px;
+    text-align: left;
+    color: black;
+}

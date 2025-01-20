@@ -64,10 +64,32 @@ p{
     padding: 16px;
 }
 
+.niveis{
+    background-color: aliceblue;
+    padding: 8px;
+    border-radius: 8px;
+    max-width: 184px;
+    width: 100%;
+    box-shadow: black 0px 1px 4px;
+    opacity: 0.4;
+    transition: all ease .5s;
+}
+
+.selecionado{
+    opacity: 1;
+    transform: scale(1.05);
+    transition: all ease .5s;
+}
+
 h3{
     color: black;
     text-shadow: white 0px 1px 4px;
     margin-bottom: 8px;
+}
+
+img{
+    margin: 8px 0;
+    max-width: 80px;
 }
 
 .texto{

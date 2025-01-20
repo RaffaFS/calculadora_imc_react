@@ -25,6 +25,38 @@ export default()=>{
                         {peso && altura&& (<p>Seu IMC é de: {IMC}</p>)}
                     </div>
                 </div>
+                <div className={styles.IMCbox}>
+                    <div>
+                        <img src="" alt="" />
+                        <h3>Abaixo do Peso</h3>
+                        <p className={styles.texto}><strong>IMC menor que 18,5. Indica peso insuficiente para a altura, podendo estar associado a deficiências nutricionais ou problemas de saúde</strong></p>
+                    </div>
+                    <div>
+                        <img src="" alt="" />
+                        <h3>Peso Normal</h3>
+                        <p className={styles.texto}><strong>IMC entre 18,5 e 24,9. Considerado saudável, indicando equilíbrio entre peso e altura.</strong></p>
+                    </div>
+                    <div>
+                        <img src="" alt="" />
+                        <h3>Sobrepeso</h3>
+                        <p className={styles.texto}><strong>IMC entre 25,0 e 29,9. Peso acima do ideal, podendo representar risco aumentado para doenças crônicas, como hipertensão.</strong></p>
+                    </div>
+                    <div>
+                        <img src="" alt="" />
+                        <h3>Obesidade grau I</h3>
+                        <p className={styles.texto}><strong>IMC entre 30,0 e 34,9. Excesso de peso com maior risco de doenças relacionadas, como diabetes tipo 2 e problemas cardiovasculares.</strong></p>
+                    </div>
+                    <div>
+                        <img src="" alt="" />
+                        <h3>Obesidade grau II</h3>
+                        <p className={styles.texto}><strong>IMC entre 35,0 e 39,9. Condição mais grave, associada a riscos significativos para a saúde e maior probabilidade de complicações.</strong></p>
+                    </div>
+                    <div>
+                        <img src="" alt="" />
+                        <h3>Obesidade grau III</h3>
+                        <p className={styles.texto}><strong>IMC igual ou maior que 40,0. Nível mais severo, com alto risco de doenças graves e impacto significativo na qualidade de vida.</strong></p>
+                    </div>
+                </div>
             </div>
         </div>
     )
